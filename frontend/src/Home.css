@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  background-image: linear-gradient(rgba(17, 24, 39, 0.7), rgba(17, 24, 39, 0.7)), url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home-title {
+  font-family: 'Audiowide', sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #22d3ee;
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  font-size: 1.25rem;
+  color: #9ca3af;
+  margin-bottom: 2rem;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
